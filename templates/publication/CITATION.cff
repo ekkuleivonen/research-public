@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research or its data, please cite it as below."
+title: {{title_yaml}}
+type: report
+date-released: {{date}}
+authors:
+  - family-names: Leivonen
+    given-names: Ekku
+url: "https://github.com/ekkuleivonen/research-public/tree/main/publications/{{slug}}"

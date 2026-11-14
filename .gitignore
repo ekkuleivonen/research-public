@@ -1,0 +1,6 @@
+__pycache__/
+__marimo__/
+.venv/
+build/
+*.parquet
+*.csv
