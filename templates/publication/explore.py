@@ -20,7 +20,7 @@ def _():
     # Same chart theme as the lab notebooks (written in by `lab publish` from lab/style.py).
     alt.theme.register("lab", enable=True)(lambda: {{theme}})
 
-    DATA = "TODO: https://<r2-public-url>/{{slug}}/data/<file>.parquet"
+    DATA = "{{data_url}}TODO.parquet"
     return DATA, alt, mo, pd
 
 
