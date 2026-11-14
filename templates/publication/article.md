@@ -4,33 +4,36 @@ slug: {{slug}}
 date: {{date}}
 question: {{question_yaml}}
 preregistration: ../../preregistrations/{{slug}}.md
-summary: "TODO: one or two sentences with the main finding"
+summary: "TODO: the finding in one or two sentences, in my voice"
 tags: []
 ---
 
 # {{title}}
 
-> **TL;DR:** TODO
+> **TL;DR:** TODO: the finding, plainly. Say whether my prediction held.
 
-## The question
+## What made me wonder
 
-{{question}}
+TODO: the everyday situation that sparked {{question}}
 
-We expected: {{hypothesis}}
+## My guess
 
-## What we did
+Before I looked at any data, I [wrote down](../../preregistrations/{{slug}}.md) what I expected:
+{{hypothesis}}
 
-TODO: a plain-language description of the data and approach. Link to methods.md for the details.
+## Getting the data
 
-## What we found
+TODO: where it came from, what my agent and I did, and what broke along the way. Details go in methods.md.
 
-TODO: the narrative, with charts. Say clearly whether the hypothesis held.
+## What I found
 
-## What this doesn't tell us
+TODO: the story, with charts. Was I right?
+
+## What I still don't know
 
 TODO: limitations, caveats and the questions this leaves open.
 
 ---
 
-[Explore the data yourself](explore.py) · [Methods](methods.md) · [Data](data.md) ·
-[Preregistration](../../preregistrations/{{slug}}.md)
+[Poke at the data yourself](explore.py) · [My lab notes](methods.md) · [The data](data.md) ·
+[My preregistration](../../preregistrations/{{slug}}.md)

@@ -1,36 +1,37 @@
-# Methods
+# How I do the research
 
-The standards that every publication in this repository follows.
+The rules every project here follows.
 
-## 1. Preregistration
+## 1. I preregister
 
-Before any data is collected, the question, a falsifiable hypothesis and the planned
-sources are committed to `preregistrations/<slug>.md`. If the hypothesis or the
-analysis plan changes later, the publication says so and explains why.
+Before collecting any data, I commit the question, a prediction that could turn out wrong, and
+the sources I plan to use to `preregistrations/<slug>.md`. If my prediction or plan changes
+later, the publication says what changed and why.
 
-## 2. Sources
+## 2. I only use public data, politely
 
-Data comes only from publicly available sources. robots.txt and terms of service are
-checked before collection. Sources that prohibit automated access are not used.
+Data comes from publicly available sources only. Before collecting anything, I check
+robots.txt and the terms of service, and I don't use sources that prohibit automated access.
 
-## 3. Snapshots
+## 3. I snapshot everything
 
-Raw collections are stored as dated, immutable snapshots with checksums. Analyses run
-from snapshots, not live pages, so results don't change when websites do.
-Raw scraped content is not republished. Published datasets are derived and aggregated.
+Every raw collection is saved as a dated snapshot with a checksum, and it never changes
+afterwards. Analyses run from those snapshots, not from live pages, so results don't shift when
+websites do. I don't republish raw scraped content. Published datasets are derived or
+aggregated.
 
-## 4. LLM labelling
+## 4. I check the machine's homework
 
-When a language model labels or classifies data, its labels are checked against an
-independent sample, either labelled by hand or by a different method, and the agreement (Cohen's κ) is
-reported. Labels with no agreement figure are not published.
+When a language model labels or classifies data, I get an independent set of labels for a
+sample, either by hand or by a different method. Then I report how often the two agree
+(Cohen's κ). If there's no agreement figure, the labels don't get published.
 
-## 5. Reporting
+## 5. I publish the awkward parts
 
-Every publication includes its limitations. Hypotheses that turn out wrong and null
-results are published as findings.
+Every publication includes its limitations. Wrong predictions and null results are findings
+and get published like any other.
 
-## 6. Who does the work
+## 6. Who does what
 
-The research is carried out by AI agents: collection, analysis and first drafts. A human
-reviews and approves every publication and every change to these standards.
+AI agents do much of the work: collecting data, labelling, analysis and first drafts. I choose
+the questions, review the work, and approve every publication and every change to these rules.

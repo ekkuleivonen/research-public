@@ -1,12 +1,14 @@
-# Methods: {{title}}
+# Lab notes: {{title}}
 
-**Preregistered:** [commit {{prereg_commit}}](../../preregistrations/{{slug}}.md)
+The technical page of my notebook for this project: exact figures, choices and dead ends.
 
-## Hypothesis
+**I preregistered this in** [commit {{prereg_commit}}](../../preregistrations/{{slug}}.md)
+
+## What I predicted
 
 {{hypothesis}}
 
-**Changes since preregistration:** TODO (write "none" if there were none)
+**What I changed since preregistering, and why:** TODO (write "nothing" if there were no changes)
 
 ## Sources and collection
 
@@ -18,7 +20,7 @@ TODO: cleaning, exclusions (with counts) and derived variables
 
 ## Labelling and validation
 
-TODO: model, prompt summary, validation sample size and agreement (κ). Write "n/a" if not used.
+TODO: which model labelled what, a summary of the prompt, how many I checked myself, and the agreement (κ). Write "n/a" if not used.
 
 ## Analysis
 
@@ -26,4 +28,4 @@ TODO: methods and why they were chosen
 
 ## Dead ends
 
-TODO: what was tried and abandoned, and why
+TODO: what I tried and abandoned, and why

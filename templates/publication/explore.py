@@ -29,7 +29,7 @@ def _(mo):
 
         {{question}}
 
-        TODO: a short guide to what readers can explore here
+        TODO: a short note from me on what you can poke at here
         """
     )
     return
