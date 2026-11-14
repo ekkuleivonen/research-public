@@ -27,7 +27,7 @@ def _(mo):
         """
         # {{title}}
 
-        {{question}}
+        {{description}}
 
         TODO: a short note from me on what you can poke at here
         """

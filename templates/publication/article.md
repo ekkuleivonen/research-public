@@ -2,7 +2,7 @@
 title: {{title_yaml}}
 slug: {{slug}}
 date: {{date}}
-question: {{question_yaml}}
+description: {{description_yaml}}
 preregistration: ../../preregistrations/{{slug}}.md
 summary: "TODO: the finding in one or two sentences, in my voice"
 tags: []
@@ -14,7 +14,7 @@ tags: []
 
 ## What made me wonder
 
-TODO: the everyday situation that sparked {{question}}
+TODO: the everyday situation behind this: {{description}}
 
 ## My guess
 
@@ -23,7 +23,7 @@ Before I looked at any data, I [wrote down](../../preregistrations/{{slug}}.md) 
 
 ## Getting the data
 
-TODO: where it came from, what my agent and I did, and what broke along the way. Details go in methods.md.
+TODO: where it came from, what my agent and I did, and what broke along the way.
 
 ## What I found
 
@@ -31,9 +31,21 @@ TODO: the story, with charts. Was I right?
 
 ## What I still don't know
 
-TODO: limitations, caveats and the questions this leaves open.
+TODO: limitations, caveats and open questions.
 
 ---
 
-[Poke at the data yourself](explore.py) · [My lab notes](methods.md) · [The data](data.md) ·
-[My preregistration](../../preregistrations/{{slug}}.md)
+## Lab notes
+
+*For anyone who wants to check my working or redo it. Preregistered in commit
+{{prereg_commit}}.*
+
+- **Changes since preregistering:** TODO (write "none" if there weren't any)
+- **Sources:** TODO: each source, collection dates, row counts and the terms check
+- **Processing:** TODO: cleaning steps and exclusions, with counts
+- **LLM labelling:** TODO: model, how many I checked myself, agreement (κ). Write "n/a" if not used.
+- **Analysis:** TODO: the methods and why I chose them
+- **Dead ends:** TODO
+
+**Data** (CC BY 4.0): TODO: one line per file with a download link and what a row is.
+[Poke at it in the browser](explore.py).

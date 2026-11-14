@@ -30,8 +30,8 @@ When these goals pull against each other, they rank in this order:
 
 Picture a clever friend from a different field. They're curious and smart, they're happy to
 think, and they have no patience for jargon. If they'd have to stop and look something up,
-the sentence has failed. Technical readers aren't left out. They get `methods.md` and
-`explore.py`, so the article itself doesn't have to show its working.
+the sentence has failed. Technical readers aren't left out. They get the lab notes at the
+end and `explore.py`, so the story itself doesn't have to show its working.
 
 ## Shape of an article
 
@@ -65,7 +65,7 @@ the sentence has failed. Technical readers aren't left out. They get `methods.md
   Tampere", "twice as often as".
 - Say uncertainty plainly: "probably", "I can't tell from this data", "this could also be
   explained by…". Don't hide it in confidence intervals the reader can't parse. The exact
-  figures go in `methods.md`.
+  figures go in the lab notes.
 - Use short sentences and active voice.
 
 ## Humour
@@ -99,14 +99,13 @@ That includes the people in the data, other researchers, the sources and any par
 - Use the shared theme (`lab.style` in the lab, the same palette in `explore.py`).
 - Reach for interactivity only when exploring *is* the point. That's what `explore.py` is for.
 
-## The other files
+## Lab notes and the explore notebook
 
-The same voice runs through everything public: `article.md`, `methods.md`, `data.md`,
-`explore.py` and the preregistrations.
+The same voice runs through everything public, including the preregistrations.
 
-- **`methods.md`** is the technical page of my lab notebook. It's still first person and still
-  readable, but this is where the exact figures, choices and dead ends go in full. The jokes
-  get rarer here. Precision comes first.
+- **Lab notes** (the end of each article) are the technical page of my notebook. They're
+  still first person, but terse. This is where the exact figures, choices and dead ends go.
+  Precision comes first, and the jokes get rarer.
 - **`explore.py`** opens with a short "here's what you can poke at" note from me, uses
   plain-language labels for every control, and has one sentence above each output saying what
   it shows. Readers should be able to play without reading the article first.
@@ -130,7 +129,7 @@ The same voice runs through everything public: `article.md`, `methods.md`, `data
 - [ ] Could a non-technical reader explain the main finding after one read?
 - [ ] Is every technical term either gone or explained where it first appears?
 - [ ] Does every chart title state a finding?
-- [ ] Is every number in the article traceable to the notebook or `methods.md`?
+- [ ] Is every number in the article traceable to the notebook or the lab notes?
 - [ ] Is every joke aimed at the data, the method or me, and none at anyone else?
 - [ ] Does any joke make a result sound bigger, smaller or more certain than it is?
 - [ ] Does the article say plainly whether my preregistered prediction held?
