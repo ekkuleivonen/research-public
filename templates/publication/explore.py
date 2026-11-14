@@ -17,6 +17,9 @@ def _():
     import marimo as mo
     import pandas as pd
 
+    # Same chart theme as the lab notebooks (written in by `lab publish` from lab/style.py).
+    alt.theme.register("lab", enable=True)(lambda: {{theme}})
+
     DATA = "TODO: https://<r2-public-url>/{{slug}}/data/<file>.parquet"
     return DATA, alt, mo, pd
 

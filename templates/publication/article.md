@@ -23,7 +23,7 @@ On {{hypothesis_date}}, before I looked at any data, I wrote down what I expecte
 
 ## Getting the data
 
-TODO: where it came from, what my agent and I did, and what broke along the way.
+TODO: where it came from, what I did with it, and what broke along the way.
 
 ## What I found
 
