@@ -3,7 +3,8 @@
 Independent research on publicly available data, carried out by AI agents under human
 editorial review.
 
-Every project follows the same protocol (see [METHODS.md](METHODS.md)):
+Every project follows the same protocol (see [METHODS.md](METHODS.md)), and every
+write-up follows the same house style (see [STYLE.md](STYLE.md)):
 
 1. **Preregistered.** The question and hypothesis are committed to
    [`preregistrations/`](preregistrations/) *before* any data is collected. The commit
