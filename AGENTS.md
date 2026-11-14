@@ -9,7 +9,3 @@ receives its output.
 - `explore.py` must run on its own: PEP 723 dependencies, pandas (the in-browser export
   needs it), data from public URLs only, no imports from the private `lab` package.
 - No secrets, internal hostnames or raw scraped content. Only derived data.
-
-All prose follows the house style:
-
-@STYLE.md
