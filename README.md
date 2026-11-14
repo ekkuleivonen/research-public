@@ -3,8 +3,7 @@
 My research diary: independent digging into publicly available data, published.
 
 I pick the questions, AI agents do much of the legwork, and I check and sign off on
-everything here. I write my prediction down in [`preregistrations/`](preregistrations/)
-before collecting any data, and I publish the results whether I was right or not. How I write
+everything here. I write my prediction down before collecting any data (each article says when), and I publish the results whether I was right or not. How I write
 it up: [STYLE.md](STYLE.md).
 
 ## Publications

@@ -3,8 +3,6 @@
 Ekku's public research diary. The research happens in the private lab repo, and this repo
 receives its output.
 
-- `preregistrations/` is written by `lab prereg`. Never edit these files. They're the proof
-  that a prediction came before the data.
 - `publications/<slug>/` is created by `lab publish` from `templates/publication/` and holds
   `article.md` (the story, then lab notes and data links at the end) and `explore.py`.
   Replace every `TODO` before the second `lab publish` run, which opens the PR.

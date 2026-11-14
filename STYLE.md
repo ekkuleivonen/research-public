@@ -40,14 +40,14 @@ end and `explore.py`, so the story itself doesn't have to show its working.
 - **Then open with what made me wonder**, made concrete. Start from a situation the reader
   recognises, not from the dataset. "Every flat listing in Helsinki says 'close to transport'.
   I started to suspect this was aspirational."
-- **Follow the trail in order:** the hunch, my prediction (as preregistered), getting the data,
+- **Follow the trail in order:** the hunch, my prediction (written down before any data), getting the data,
   what went wrong, what I found. Dated entries or a looser narrative both work. Pick whatever
   suits the story.
 - **One idea per section, one point per chart.** If a section needs two charts to make one
   point, the point isn't clear yet.
 - **Chart titles state the finding**, not the variables: "Listings get vaguer as rent goes up",
   not "Description length vs. monthly rent".
-- **Say plainly whether I was right.** My preregistered prediction gets a clear verdict.
+- **Say plainly whether I was right.** My prediction gets a clear verdict.
   Being wrong is a fine result and usually a better story.
 - **End with what I still don't know.** The limitations are part of the diary, not a
   disclaimer. Write them with the same care, and the same personality, as the rest.
@@ -101,7 +101,7 @@ That includes the people in the data, other researchers, the sources and any par
 
 ## Lab notes and the explore notebook
 
-The same voice runs through everything public, including the preregistrations.
+The same voice runs through everything public.
 
 - **Lab notes** (the end of each article) are the technical page of my notebook. They're
   still first person, but terse. This is where the exact figures, choices and dead ends go.
@@ -132,5 +132,5 @@ The same voice runs through everything public, including the preregistrations.
 - [ ] Is every number in the article traceable to the notebook or the lab notes?
 - [ ] Is every joke aimed at the data, the method or me, and none at anyone else?
 - [ ] Does any joke make a result sound bigger, smaller or more certain than it is?
-- [ ] Does the article say plainly whether my preregistered prediction held?
+- [ ] Does the article say plainly whether my prediction held?
 - [ ] Are the limitations written as carefully as the findings?

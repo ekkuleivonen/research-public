@@ -3,7 +3,7 @@ title: {{title_yaml}}
 slug: {{slug}}
 date: {{date}}
 description: {{description_yaml}}
-preregistration: ../../preregistrations/{{slug}}.md
+hypothesis_date: {{hypothesis_date}}
 summary: "TODO: the finding in one or two sentences, in my voice"
 tags: []
 ---
@@ -18,7 +18,7 @@ TODO: the everyday situation behind this: {{description}}
 
 ## My guess
 
-Before I looked at any data, I [wrote down](../../preregistrations/{{slug}}.md) what I expected:
+On {{hypothesis_date}}, before I looked at any data, I wrote down what I expected:
 {{hypothesis}}
 
 ## Getting the data
@@ -37,10 +37,9 @@ TODO: limitations, caveats and open questions.
 
 ## Lab notes
 
-*For anyone who wants to check my working or redo it. Preregistered in commit
-{{prereg_commit}}.*
+*For anyone who wants to check my working or redo it.*
 
-- **Changes since preregistering:** TODO (write "none" if there weren't any)
+- **Changes since writing down my guess:** TODO (write "none" if there weren't any)
 - **Sources:** TODO: each source, collection dates, row counts and the terms check
 - **Processing:** TODO: cleaning steps and exclusions, with counts
 - **LLM labelling:** TODO: model, how many I checked myself, agreement (κ). Write "n/a" if not used.
